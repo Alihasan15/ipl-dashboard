@@ -1,0 +1,22 @@
+Spring Batch Recap:
+
+	1] Reader is a flatFileItemReader which takes file name in the classpath. It creates a instance of Match Input class
+		for each row.
+		
+	2] Processor is used to manipulate the input to the output. In our case : It will pull up from matchInput instance
+		and create a match instance.
+		
+	3] Writer is a jdbcBatchItemWriter which writes onto the hsql db. It takes match instance which is the final output 
+		to be written on the db. 
+
+	4] Steps Reads using the reader , process during the processor, 
+		write using the writer.These three are spring beans.
+			
+	5] We defined a batch job. It contains one step which is required. Once the Job is completed it uses a job
+		notification listener.
+		
+	6] Job Notification listener checks whether the job is completed. If completed it sends out a notification
+	
+	
+Transient :
+	It is used to communicate to jpa don't bother creating the field in db. It is only used to pass data. 
