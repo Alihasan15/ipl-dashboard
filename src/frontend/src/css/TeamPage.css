@@ -1,0 +1,33 @@
+.TeamPage {
+  padding: 2vh 5vw;
+  background-color: #d7dee5;
+  height: 100%;
+}
+#teamPageHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+}
+.MatchDetail {
+  padding: 10px;
+  height: 75vh;
+  box-shadow: 4px 8px 28px rgba(39, 44, 49, 0.1),
+    1px 3px 8px rgba(39, 44, 49, 0.075);
+}
+.matches {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.MatchSmallCard {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+}
