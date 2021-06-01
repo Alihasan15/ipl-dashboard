@@ -2,7 +2,7 @@ import { React } from 'react';
 
 export const MatchSmallCard =()=>{
   return (
-    <div className="MatchSmallCard">
+    <div className="MatchSmallCard mbt30">
       <div className="matches MatchesPlayed">
         <div className="matchTitle">Matches Played</div>
         <div className="count">24</div>

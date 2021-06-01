@@ -2,6 +2,7 @@
   padding: 2vh 5vw;
   background-color: #d7dee5;
   height: 100%;
+  overflow: auto;
 }
 #teamPageHeader {
   display: flex;
@@ -14,8 +15,7 @@
   height: 100px;
 }
 .MatchDetail {
-  padding: 10px;
-  height: 75vh;
+  padding: 2vh 5vh;
   box-shadow: 4px 8px 28px rgba(39, 44, 49, 0.1),
     1px 3px 8px rgba(39, 44, 49, 0.075);
 }
@@ -24,10 +24,41 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  flex: 1 0 250px;
+  margin: 5px;
 }
 .MatchSmallCard {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 10px;
+  border: 1px solid #a9a9a9;
+  padding: 14px 5px;
+  flex-wrap: wrap;
+  border-radius: 5px;
+}
+.recentMatches {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #a9a9a9;
+  height: 250px;
+  max-width: 720px;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.mbt30 {
+  margin: 2rem 0 3.5rem 0;
+}
+.matchDetailContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+.pieChart {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background-color: aqua;
+  margin-bottom: 2rem;
 }
