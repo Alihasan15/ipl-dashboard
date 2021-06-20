@@ -7,9 +7,9 @@ export const nameToLogo ={
     "Royal Challengers Bangalore":"royalChallenge.svg",
     "Pune Warriors":"Pune_Warriors.svg",
     "Mumbai Indians":"mumbaiIndians.svg",
-    "Rising Pune Supergiants":"risingPuneSupergiants.svg",
+    "Rising Pune Supergiant":"risingPuneSupergiants.svg",
     "Kochi Tuskers Kerala":"Kochi_Tuskers_Kerala_Logo.svg",
-    "Kolkata Knight Riders":"Kolkata_Knight_Riders_Logo.svg",
+    "Kolkata Knight Riders":"knightRiders.svg",
     "Gujarat Lions":"Gujarat_Lions.svg",
     "Rajasthan Royals":"Rajasthan_Royals_Logo.svg"
 }
